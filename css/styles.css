@@ -208,12 +208,30 @@ body {
   border-radius: 4px;
   
 }
+.buttons-items .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
 
+.buttons-item {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-bottom: 100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
 .button {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  margin-right: 30px;
 }
 
 .button:hover,
@@ -308,6 +326,31 @@ body {
   width: 370px;
   flex-direction: row;
 }
+/* items */
+.main-items .container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 94px;
+    justify-content: space-between;
+    
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+    
+}
+.item {
+  width: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.item-content-wrapper {
+  padding-top: 30px;
+  border: 1px solid #cccccc;
+  border-top: none;
+}
 /* Workers */
 .workers .container {
   display: flex;
@@ -351,15 +394,6 @@ body {
   font-size: 16px;
   line-height: 1.9;
 
-}
-/* .masters .title {
-  margin-bottom: 44px;
-}
-
-.masters-list-content-wrapper {
-  padding-top: 30px;
-  border: 1px solid #cccccc;
-  border-top: none;
 }
 
 /* footter */
