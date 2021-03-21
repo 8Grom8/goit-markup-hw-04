@@ -83,14 +83,14 @@ body {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
-  border-bottom: ;
+  width: 1200p;
 }
 
 .header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC 
   
 }
 
@@ -102,16 +102,17 @@ body {
   display: flex;
   align-items: center;
 }
-.logo {
-  margin-right: 70px;
-}
+/* .logo {
+  margin-right: 30px;
+} */
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
+  align-items: center;
 }
 .addres-list {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .addres-list-link {
@@ -125,8 +126,8 @@ body {
   font-size: 26px;
   line-height: 1.14;
   text-decoration: none;
-  margin-right: 53px;
-  margin-left: 30px;
+  margin-right: 50px;
+  
 }
 
 .logo-span {
